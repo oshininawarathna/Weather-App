@@ -32,8 +32,8 @@ const CurrentData:React.FC<InputProps>  = ({ data }) => {
       </div>
       <div>
         <p className="text-5xl text-blue-900 font-semibold">
-          {data.current.temp_f.toFixed()}
-          <span>°</span>
+          {data.current.temp_c.toFixed()}
+          <span>°C</span>
         </p>
         <span className="text-blue-700">{data.current.condition.text}</span>
       </div>
